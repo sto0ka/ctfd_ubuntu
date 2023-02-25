@@ -9,7 +9,7 @@
 #EDIT 4 strings based on your environment
 #################################################################################################################
 #YOU CAN create your command here:
-# $sudo ./s1_ready_test.sh paste rest from S1 Console Here
+# $sudo ./sentinel_script.sh paste rest from S1 Console Here
 #################################################################################################################
 S1_MGMT_URL="add full management console url - EDIT1"  
 API_ENDPOINT='/web/api/v2.1/update/agent/packages'
