@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=sh -c "find $HOME/Documents -name '*.sh' | grep '.sh' && gsettings set org.gnome.desktop.background picture-uri 'file://$HOME/.config/wallpaper.jpg'"
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=CheckScripts
+Comment=Check for .sh scripts and set background flag
